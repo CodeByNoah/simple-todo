@@ -21,4 +21,5 @@ model Task {
   description  String
   isDone Boolean @default(false)
   date DateTime @default(now())
+  priority String @default("MEDIUM")
 }
